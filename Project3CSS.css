@@ -1,0 +1,144 @@
+*{
+    left:0;
+    top:0;
+}
+.container{
+    height:225vh;
+    width: 98vw;
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+}
+.navContainer{
+    width:100%;
+    height:80px;
+    border: 1px solid black;
+    background-image: linear-gradient( 90.1deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 99.9% );
+    display: flex;
+}
+#brand{
+margin:auto;
+padding-left: 200px;
+font-size: 30px;
+color: rgba(235, 15, 125, 0.932);
+font-family: verdana;
+}
+#menu{
+margin-right:20px;
+margin-top: 30px;
+font-size: 20px;
+word-spacing: 10px;
+}
+a{
+    color:white;
+    font-family: verdana;
+}
+.contentbox{
+    width:70%;
+    border:2px solid black;
+    box-shadow: 0px 0px 25px black;
+    margin: auto;
+    margin-bottom: 0px;
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+}
+#item1{
+    display:flex;
+    justify-content: space-around;
+}
+#item2{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family:verdana;
+    background-image:linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% ); 
+    margin-top: 0px;
+}
+#gulab1 h3{
+    padding-left: 25px;
+}
+#barfi1 h3{
+    padding-left: 25px;
+}
+.footerbox{
+   background-image: linear-gradient( 90.1deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 99.9% );
+   text-align: center;
+   width: 100%;
+   height:30px;
+   font-size: 20px;
+}
+#foot{
+   margin:0px;
+}
+#gulab2 img{
+    border-radius: 20px;
+    position: absolute;
+    height:98%;
+    width:98%;
+    border: 2px solid black;
+    
+}
+#barfi2 img{
+    border-radius: 20px;
+    position:absolute;
+    height:98%;
+    width:98%;
+    border: 2px solid black;    
+}
+.overlaygulab span{
+    color:white;
+} 
+.overlay span{
+    color:white; 
+}  
+#gulab2{
+    height: 220px;
+    width:200px;
+    position: relative;
+    margin-top: 20px;
+    transition: all 1s linear 0s;
+}
+#barfi2{
+    height:220px;
+    width:200px;
+    position: relative;
+    margin-top: 20px;
+    transition: all 1s linear 0s;
+}
+#gulab2:hover{
+    transform: scale(1.1);
+}
+#barfi2:hover{
+    transform: scale(1.1);
+}
+.overlaygulab{
+    height: 100%;
+    width:100%;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(143, 137, 137,0.613);
+    opacity: 0;
+    transition: 1s;
+}
+.overlay{
+    height:100%;
+    width:100%;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(143, 137, 137,0.613);
+    opacity: 0;
+    transition: 1s;
+}
+.overlaygulab:hover{
+    opacity: 1;
+}
+.overlay:hover{
+    opacity: 1;
+}
